@@ -1,0 +1,8 @@
+name = "reseller-scan"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Geheimnisse NICHT hier eintragen, sondern per:
+#   npx wrangler secret put ANTHROPIC_API_KEY
+#   npx wrangler secret put APP_TOKEN
